@@ -1,0 +1,30 @@
+/* inizializzazione */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin-top: 80px;
+  width: 100%;
+  height: 50vh;
+  background-color: grey;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  height: 30vh;
+}
+
+.top-bar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  background-color: #f5f9fd;
+  z-index: 999;
+}
