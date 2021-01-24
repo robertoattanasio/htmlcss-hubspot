@@ -46,6 +46,10 @@ h4 {
   font-weight: 500;
 }
 
+#h4-special {
+  width: 70%;
+}
+
 h6 {
   font-size: 12px;
   font-weight: 100;
@@ -57,18 +61,6 @@ p.popular-features {
   text-transform: uppercase;
 }
 
-.customer-paragraph {
-  width: 25%;
-  margin: auto;
-  font-size: 12px;
-  font-weight: 400;
-}
-
-hr.card-line {
-  width: 40%;
-  margin: 40px auto;
-}
-
 /* buttons */
 .btn-orange {
   border-radius: 5px;
@@ -76,12 +68,14 @@ hr.card-line {
   background-color: #ee7e62;
   border: 1px solid #ee7e62;
 }
+
 .btn-white {
   border-radius: 5px;
   color: #ee7e62;
   background-color: none;
   border: 1px solid #ee7e62;
 }
+
 .btn-footer {
   border-radius: 5px;
   background-color: white;
@@ -89,24 +83,34 @@ hr.card-line {
   color: #37465a;
   text-decoration: none;
 }
+
+.btn-card {
+  margin: 50px 0;
+}
+
 .large {
   font-size: 18px;
   padding: 15px 20px;
 }
+
 .small {
   font-size: 12px;
   padding: 5px 20px;
 }
+
 a.btn-orange:hover {
   background-color: #f5bfaf;
 }
+
 a.btn-white:hover {
   background-color: #fdf1ee;
 }
+
 a.btn-footer:hover {
   background-color: lightgrey;
   border: lightgrey;
 }
+
 a.btn-orange:link,
 a.btn-orange:visited,
 a.btn-orange:active,
@@ -165,6 +169,15 @@ a.btn-white:active {
   height: 100%;
 }
 
+.col3-left, .col3-middle {
+  float: left;
+  width: 30%;
+}
+
+.col3-middle {
+  margin: 0px 5%;
+}
+
 .col4 {
   float: left;
   text-align: left;
@@ -184,12 +197,17 @@ a.btn-white:active {
   display: inline;
 }
 
+.no-margin {
+  margin: 0;
+}
+
 .float-close::after {
   content: '';
   display: table;
   clear: both;
 }
 
+/* colori di sfondo modulari */
 .grey {
   background-color: #f5f9fd;
 }
@@ -198,9 +216,9 @@ a.btn-white:active {
   background-color: #fff;
 }
 
-.card-line {
-  width: 60%;
-  margin: auto;
+.gradient-blue {
+  background-image: linear-gradient(to right,#49a3a3,#50b4aa);
+ color: white;
 }
 
 /* top-bar */
@@ -220,12 +238,6 @@ a.btn-white:active {
 
 .top-bar-fixed li {
   display: inline-block;
-  padding: 0px 3px;
-}
-
-.top-bar-fixed li:first-child {
-  display: inline-block;
-  padding: 0px;
 }
 
 ul.standard-links li a:link,
@@ -255,7 +267,6 @@ header {
   line-height: 7vh;
   background-color: white;
   border-bottom: 3px solid #37465a;
-  /* box-shadow: 0px 2px 4px lightgrey; */
 }
 
 nav li {
@@ -264,7 +275,6 @@ nav li {
 }
 
 nav li:last-child {
-  display: inline-block;
   padding: 0;
 }
 
@@ -295,14 +305,13 @@ img.jumbotron {
 .header-divider {
   width: 100%;
   height: 7vh;
-  background-color: #58b4a0;
   border-top: 4px solid #37465a;
   border-bottom: 4px solid #37465a;
 }
 
 /* main */
 section {
-  padding: 30px 0;
+  padding: 40px 0;
 }
 
 .card {
@@ -324,6 +333,16 @@ img.img-card {
   padding-bottom: 10px;
 }
 
+div.card-line {
+  width: 60%;
+  margin: auto;
+}
+
+hr.card-line {
+  width: 40%;
+  margin: 40px auto;
+}
+
 .card-list-horizontal li {
   display: inline-block;
   padding: 30px 10px;
@@ -334,35 +353,59 @@ img.img-card {
   padding: 30px 0;
 }
 
-
-.col3-left, .col3-middle {
-  float: left;
-  width: 30%;
-}
-
-.col3-middle {
-  margin: 0px 5%;
-}
-
 .card-list-vertical li {
   text-align: left;
   margin-top: 20px;
   font-size: 14px;
 }
 
-.card-btn {
-  margin: 50px 0;
-}
-
 /* sezione customers */
 .container-partners {
   margin: auto;
-  width: 70%;
+  width: 60%;
 }
 
-
 img.img-customers {
-  width: 80%;
+  width: 60%;
+}
+
+.table {
+  margin: 30px 0;
+}
+
+.table-cell {
+  float: left;
+  width: 25%;
+  height: 200px;
+  text-align: center;
+  padding: 30px;
+}
+
+.table-cell h1::after {
+  content: '+';
+}
+
+.table-cell img {
+  margin-bottom: 20px;
+}
+
+.border-right {
+  border-right: 1px solid white;
+}
+
+.border-bottom {
+  border-bottom: 1px solid white;
+}
+
+.table-agency-cell {
+  float: left;
+  width: 25%;
+  height: 100px;
+  text-align: center;
+}
+
+.table-agency-cell img {
+  width: 60%;
 }
 
 /* footer */
