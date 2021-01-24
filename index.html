@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="css/master.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
   </head>
   <body>
     <!-- inizio top bar fixed -->
-    <div class="top-bar-fixed">
+    <div class="top-bar-fixed" id="#top">
       <div class="container float-close">
         <div class="col2-left-50">
           <ul class="standard-links">
-            <li><a href="#">English</a></li>
+            <li><a href="#"><i class="fas fa-globe-europe"></i> English</a></li>
             <li>|</li>
             <li><a href="#">Contact</a></li>
           </ul>
@@ -22,6 +23,7 @@
 
         <div class="col2-right-50">
           <ul>
+            <li style="margin-right:20px"><a href="#"><i class="fas fa-search"></i></a></li>
             <li><a class="btn-white small" href="#">Login</a></li>
             <li><a class="btn-orange small" href="#">Get Hubspot Free</a></li>
           </ul>
@@ -29,9 +31,9 @@
       </div>
     </div>
     <!-- fine top bar fixed -->
-
+    <a class="btn-return small" href="#top"><i class="fas fa-chevron-up"></i></a>
     <!-- inizio header -->
-    <header>
+    <header id="header">
       <!-- immagine jumbotron -->
       <img class="jumbotron" src="img/hero.svg" alt="">
 
@@ -47,9 +49,12 @@
               <div class="col2-right-50">
                 <ul class="standard-links">
                   <li><a href="#">Software</a></li>
+                  <li><a href="#"><i class="fas fa-chevron-down"></i></a></li>
                   <li><a href="#">Pricing</a></li>
                   <li><a href="#">Resources</a></li>
+                  <li><a href="#"><i class="fas fa-chevron-down"></i></a></li>
                   <li><a href="#">Partners</a></li>
+                  <li><a href="#"><i class="fas fa-chevron-down"></i></a></li>
                   <li><a href="#">About</a></li>
                 </ul>
               </div>
@@ -356,6 +361,13 @@
           </ul>
           <br>
           <a class="btn-footer small" href="#">Contact Hubspot Now</a>
+          <ul class="social">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+          </ul>
         </div>
       </div>
       <!-- lista lingue -->
