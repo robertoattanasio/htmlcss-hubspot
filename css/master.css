@@ -57,6 +57,13 @@ p.popular-features {
   text-transform: uppercase;
 }
 
+.customer-paragraph {
+  width: 25%;
+  margin: auto;
+  font-size: 12px;
+  font-weight: 400;
+}
+
 hr.card-line {
   width: 40%;
   margin: 40px auto;
@@ -345,6 +352,17 @@ img.img-card {
 
 .card-btn {
   margin: 50px 0;
+}
+
+/* sezione customers */
+.container-partners {
+  margin: auto;
+  width: 70%;
+}
+
+
+img.img-customers {
+  width: 80%;
 }
 
 /* footer */
