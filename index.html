@@ -9,13 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
   </head>
+
   <body>
     <!-- inizio top bar fixed -->
     <div class="top-bar-fixed" id="#top">
       <div class="container float-close">
         <div class="col2-left-50">
           <ul class="standard-links">
-            <li><a href="#"><i class="fas fa-globe-europe"></i> English</a></li>
+            <li><a href="#"><i class="fas fa-globe-europe"></i>  English</a></li>
             <li>|</li>
             <li><a href="#">Contact</a></li>
           </ul>
@@ -23,7 +24,7 @@
 
         <div class="col2-right-50">
           <ul>
-            <li style="margin-right:20px"><a href="#"><i class="fas fa-search"></i></a></li>
+            <li style="margin-right:20px"><i class="fas fa-search"></i></li>
             <li><a class="btn-white small" href="#">Login</a></li>
             <li><a class="btn-orange small" href="#">Get Hubspot Free</a></li>
           </ul>
@@ -31,9 +32,13 @@
       </div>
     </div>
     <!-- fine top bar fixed -->
+
+    <!-- return to top button fixed -->
     <a class="btn-return small" href="#top"><i class="fas fa-chevron-up"></i></a>
+
     <!-- inizio header -->
     <header id="header">
+
       <!-- immagine jumbotron -->
       <img class="jumbotron" src="img/hero.svg" alt="">
 
@@ -80,8 +85,10 @@
 
     <!-- barra colorata divisoria -->
     <div class="header-divider gradient-blue"></div>
+
     <!-- inizio main -->
     <main>
+
       <section class="col1 grey">
         <div class="container">
           <img src="img/integrations illustration 2.svg" alt="">
@@ -94,31 +101,33 @@
       <section class="col1 grey">
         <div class="container">
           <div class="card float-close">
-            <!-- prima colonna -->
+            <!-- apertura prima colonna -->
             <div class="col2-left-30 align-center card-content">
               <img class="img-card" src="img/integrations illustration 2.svg" alt="">
               <div class="btn-card">
                 <a class="btn-orange large" href="#">Get Hubspot Free</a>
               </div>
             </div>
-            <!-- chiusura seconda colonna -->
-            <!-- seconda colonna -->
+            <!-- chiusura prima colonna -->
+
+            <!-- apertura seconda colonna -->
             <div class="col2-left-70 card-content float-close">
               <h2 class="card-title">Free HubSpot CRM</h2>
               <h3>Everything you need to organize, track and build better relationships with leads and customers. Yes, It's 100% free. Forever.</h3>
-              <div class="col2-left-30">
-                <p class="popular-features inline">Popular Features</p>
+              <div class="col2-left-70">
+                <p class="popular-features">Popular Features</p>
+                <div class="card-list-horizontal">
+                  <ul>
+                    <li><i class="fas fa-check-circle"></i> Contact Insight</li>
+                    <li><i class="fas fa-check-circle"></i> Deals</li>
+                    <li><i class="fas fa-check-circle"></i> Tasks</li>
+                  </ul>
+                </div>
               </div>
               <div class="col2-left-70">
-                <p class="popular-features inline">------------------------------------------------------------------------------</p>
+          </p>
               </div>
-              <div class="card-list-horizontal">
-                <ul>
-                  <li>Contact Insight</li>
-                  <li>Deals</li>
-                  <li>Tasks</li>
-                </ul>
-              </div>
+
             </div>
             <!-- chiusura seconda colonna -->
           </div>
@@ -129,6 +138,7 @@
       <!-- inizio tre carte -->
       <section class="col1 grey">
         <div class="container float-close">
+
           <!-- carta 1 -->
           <div class="col3-left card">
             <img class="img-card" src="img/integrations illustration 2.svg" alt="">
@@ -138,17 +148,17 @@
             <p class="popular-features inline">Popular Features</p>
             <div class="card-list-vertical">
               <ul>
-                <li>Contact Insight</li>
-                <li>Deals</li>
-                <li>Tasks</li>
+                <li><i class="fas fa-check-circle"></i> Contact Insight</li>
+                <li><i class="fas fa-check-circle"></i> Deals</li>
+                <li><i class="fas fa-check-circle"></i> Tasks</li>
               </ul>
             </div>
 
             <div class="btn-card">
               <a class="btn-orange large" href="#">Get Hubspot Free</a>
             </div>
-
           </div>
+
           <!-- carta 2 -->
           <div class="col3-middle card">
             <img class="img-card" src="img/integrations illustration 2.svg" alt="">
@@ -158,15 +168,16 @@
             <p class="popular-features inline">Popular Features</p>
             <div class="card-list-vertical">
               <ul>
-                <li>Email Tracking</li>
-                <li>Metting Scheduling</li>
-                <li>Email Automation</li>
+                <li><i class="fas fa-check-circle"></i> Email Tracking</li>
+                <li><i class="fas fa-check-circle"></i> Meeting Scheduling</li>
+                <li><i class="fas fa-check-circle"></i> Email Automation</li>
               </ul>
             </div>
             <div class="btn-card">
               <a class="btn-orange large" href="#">Learn More</a>
             </div>
           </div>
+
           <!-- carta 3 -->
           <div class="col3-left card">
             <img class="img-card" src="img/integrations illustration 2.svg" alt="">
@@ -176,9 +187,9 @@
             <p class="popular-features inline">learn More</p>
             <div class="card-list-vertical">
               <ul>
-                <li>Tickets</li>
-                <li>Customer Feedback</li>
-                <li>Knowledge Base</li>
+                <li><i class="fas fa-check-circle"></i> Tickets</li>
+                <li><i class="fas fa-check-circle"></i> Customer Feedback</li>
+                <li><i class="fas fa-check-circle"></i> Knowledge Base</li>
               </ul>
             </div>
             <div class="btn-card">
@@ -186,8 +197,8 @@
             </div>
           </div>
         </div>
+        <!-- fine tre carte -->
       </section>
-      <!-- fine tre carte -->
 
       <!-- inizio sezione customers colorata -->
       <section class="gradient-blue">
@@ -196,6 +207,8 @@
             <h2>Learn and grow with award-winning support and thriving community behind you.</h2>
             <h4>You don't have to go it alone. Master the inbound methodology  and get the most out of your tools with HubSpot's legendary customer support team and a community of thousands of marketing and sales pros just like you.</h4>
           </div>
+
+          <!-- inizio tabella -->
           <div class="col1">
             <div class="table float-close">
               <!-- prima riga -->
@@ -258,6 +271,7 @@
             <h4 id="h4-special">Customers in over <strong>100</strong> countries growing their businessess with HubSpot</h4>
             <h4></h4>
           </div>
+
           <!-- tabella partners -->
           <div class="col2-right-70">
             <div class="table-agency float-close">
@@ -346,7 +360,7 @@
             <li><a href="#">Document Tracking Tool</a></li>
             <li><a href="#">Meeting Schedule Tool</a></li>
             <li><a href="#">Sales Automation Tool</a></li>
-            <li><a href="#">Lead Managment Tool</a></li>
+            <li><a href="#">Lead Management Tool</a></li>
             <li><a href="#">Pipeline Management Tool</a></li>
           </ul>
         </div>
@@ -370,6 +384,7 @@
           </ul>
         </div>
       </div>
+
       <!-- lista lingue -->
       <div class="container">
         <div class="col1">
@@ -382,8 +397,10 @@
           </ul>
         </div>
       </div>
+
       <!-- linea separatrice footer -->
       <hr class="footer-line">
+
       <!-- copyright & policy -->
       <div class="container float-close">
         <div class="col2-left-50">
@@ -399,5 +416,6 @@
       </div>
     </footer>
     <!-- fine footer -->
+
   </body>
 </html>

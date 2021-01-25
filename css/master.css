@@ -61,6 +61,19 @@ p.popular-features {
   text-transform: uppercase;
 }
 
+/* Font Awesome  */
+.fa-check-circle {
+  color: #ee7e62;
+}
+
+a.fa-search:active,
+a.fa-search:visited;
+a.fa-search:active;
+a.fa-search:hover; {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* buttons */
 .btn-orange {
   border-radius: 5px;
@@ -184,6 +197,10 @@ a.btn-white:active {
   width: 25%;
 }
 
+section {
+  padding: 40px 0;
+}
+
 .container {
   margin: auto;
   width: 70%;
@@ -220,7 +237,8 @@ a.btn-white:active {
   background-image: linear-gradient(to right,#49a3a3,#50b4aa);
  color: white;
 }
-/* return on top btn */
+
+/* return on top btn fixed */
 .btn-return {
   position: fixed;
   bottom: 40px;
@@ -259,6 +277,16 @@ ul.standard-links li a:hover {
   color: #37465a;
 }
 
+/* nav */
+nav li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+nav li:last-child {
+  padding: 0;
+}
+
 /* header */
 header {
   margin-top: 7vh;
@@ -278,15 +306,6 @@ header {
   line-height: 7vh;
   background-color: white;
   border-bottom: 3px solid #37465a;
-}
-
-nav li {
-  display: inline-block;
-  padding: 0px 10px;
-}
-
-nav li:last-child {
-  padding: 0;
 }
 
 img.logo {
@@ -320,11 +339,7 @@ img.jumbotron {
   border-bottom: 4px solid #37465a;
 }
 
-/* main */
-section {
-  padding: 40px 0;
-}
-
+/* main - sezione cards */
 .card {
   background-color: white;
   box-shadow: 0px 2px 4px lightgrey;
@@ -364,24 +379,13 @@ hr.card-line {
   padding: 30px 0;
 }
 
-.card-list-horizontal li::before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: '\f00c ';
-}
-
 .card-list-vertical li {
   text-align: left;
   margin-top: 20px;
   font-size: 14px;
 }
 
-.card-list-vertical li::before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: '\f00c';
-}
-/* sezione customers */
+/* main - sezione customers */
 .container-partners {
   margin: auto;
   width: 60%;
